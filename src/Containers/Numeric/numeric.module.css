@@ -1,0 +1,16 @@
+.numeric{
+  display:flex;
+  justify-content: center; 
+}
+
+.numeric Button{
+  margin: 0 50px;
+}
+
+.numeric div{
+  font-weight:bold;
+  padding: 0 25px;
+  border: 2px black solid;
+  background-color: rgb(248, 241, 142);
+  color: rgb(2, 2, 77);
+}
