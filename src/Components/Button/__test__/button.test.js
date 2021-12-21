@@ -6,7 +6,7 @@ afterEach(()=>{
 })
 
 test('should render a button with id=demoBtn and Label=<Take me to Demo>',()=>{
-  render(<Button/>)
+  render(<Button testid="demoBtn" label="Take me to Demo"/>)
 
   const buttonElem=screen.getByTestId("demoBtn");
   expect(buttonElem).toBeInTheDocument();

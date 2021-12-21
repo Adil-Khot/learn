@@ -8,9 +8,9 @@ const Numeric =()=> {
   
     return(
       <div className={classes.numeric}>
-        <Button label="(-)" click={()=>setCount(count - 1)}/>
-        <div>{count}</div>
-        <Button label="(+)" click={()=>setCount(count + 1)}/>
+        <Button testid="dec" label="(-)" click={()=>setCount(count - 1)}/>
+        <div data-testid="val" >{count}</div>
+        <Button testid="inc" label="(+)" click={()=>setCount(count + 1)}/>
       </div>
     );
   
