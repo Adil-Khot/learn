@@ -1,16 +1,23 @@
-
-.NavItems{
-  margin:0 10px;
+.NavItems {
+  margin: 0 10px;
   padding: 5px auto;
   z-index: 1;
   box-sizing: border-box;
-  cursor:pointer;
-  }
+  cursor: pointer;
+  color: rgb(172, 191, 196);
+  text-decoration: none;
+}
 
-  .NavItems:hover{
-    color:white;
-  }
+.NavItems:hover {
+  color: red;
+}
 
- @media (max-width:500px){
-.NavItems{display:none;}
- }
+.Active {
+  color: red;
+}
+
+@media (max-width: 500px) {
+  .NavItems {
+    display: none;
+  }
+}

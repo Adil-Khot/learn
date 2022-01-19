@@ -1,0 +1,25 @@
+.LoginBox {
+  display: flex;
+  flex-direction: column;
+  height: 20%;
+  width: 33%;
+  justify-content: center;
+  border: rgb(61, 59, 59) 2px solid;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  background-color: rgb(140, 153, 150);
+  border-radius: 5px;
+  margin-top: 8%;
+  padding-bottom: 4%;
+}
+
+hr {
+  width: 33%;
+}
+
+Link {
+  text-decoration: none;
+  color: white;
+  background-color: white;
+}

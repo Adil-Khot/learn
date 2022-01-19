@@ -1,4 +1,4 @@
-.DemoButton{
+.DemoButton {
   width: fit-content;
   background-color: greenyellow;
   border: 2px solid rgb(181, 182, 108);
@@ -6,7 +6,11 @@
   margin: 2px;
 }
 
-.DemoButton:hover{
+.ActiveUser {
+  border: 2px solid red;
+}
+
+.DemoButton:hover {
   background-color: white;
   color: green;
 }

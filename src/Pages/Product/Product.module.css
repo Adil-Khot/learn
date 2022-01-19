@@ -1,0 +1,21 @@
+.Product, Link{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
+    border: 2px solid salmon;
+    width: 35px;
+    height: 35px;
+    border-radius: 17px;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.ProductList{
+    display: flex;
+    justify-content: space-around; 
+}
+
